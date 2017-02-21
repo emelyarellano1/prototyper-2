@@ -1,0 +1,56 @@
+.fondo{
+	background-image: url(../img/frutas-fondo.png);
+	width: 100%;
+}
+
+#slide-show {
+	height: 600px;
+	overflow: hidden;
+	position: relative;
+	max-width: 100%;
+
+	#slider {
+		height: 100%;
+		width: 100%;
+
+		.slide {
+
+			position:absolute;
+			width: 100%;
+
+			img {
+				height: 100%;
+				width: auto;
+			}
+		}
+
+	}
+}
+#prev, #next {
+  cursor: pointer;
+  max-width: 60px;
+  opacity: 0;
+  position: absolute;
+  top: 45%;
+  -webkit-transition: opacity 0.2s linear;
+  -moz-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+  z-index: 999;
+}
+
+#prev { left: 0; }
+
+#next { right: 0; }
+
+#slider-show:hover #prev, #slider-show:hover #next { opacity: .7; }
+
+.slide-copy {
+  background: #777;
+  background: rgba(0, 0, 0, .5);
+  bottom: 0;
+  color: #fff;
+  left: 0;
+  padding: 20px;
+  position: absolute;
+}
