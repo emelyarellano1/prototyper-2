@@ -1,8 +1,16 @@
+.navbar{
+	margin-bottom: 0px;
+	border-radius:0px;
+}
+
 .fondo{
 	background-image: url(../img/frutas-fondo.png);
 	width: 100%;
 }
-
+.fruit-background{
+	margin-top: 250px;
+	margin-bottom: 300px;
+}
 #slide-show {
 	height: 600px;
 	overflow: hidden;

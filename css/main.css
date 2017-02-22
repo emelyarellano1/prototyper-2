@@ -5830,8 +5830,8 @@ button.close {
   border: 1px solid rgba(38, 191, 64, 0);
   transition: all 0.5s; }
   #waterfall li > div img {
-    width: 100%;
-    position: relative; }
+    display: block;
+    width: 90%; }
 
 #waterfall li > div:hover {
   transform: translateY(-10px);
@@ -5839,9 +5839,17 @@ button.close {
   box-shadow: 0 10px 15px rgba(38, 191, 64, 0.1);
   transition: all 0.3s; }
 
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px; }
+
 .fondo {
   background-image: url(../img/frutas-fondo.png);
   width: 100%; }
+
+.fruit-background {
+  margin-top: 250px;
+  margin-bottom: 300px; }
 
 #slide-show {
   height: 600px;
