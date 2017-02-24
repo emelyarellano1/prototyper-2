@@ -24,11 +24,11 @@
 					</div>
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li><a href="#" id="producto">Producto</a></li>
-							<li><a href="#" id="services">Services</a></li>
-							<li><a href="#" id="product">Product</a></li>
-							<li><a href="#" id="suport">Suport</a></li>
-							<li><a href="#" id="contact">Contact</a></li>
+							<li><a data-scroll href="#producto">Producto</a></li>
+							<li><a  data-scroll href="#services">Services</a></li>
+							<li><a  data-scroll href="#product">Product</a></li>
+							<li><a  data-scroll href="#suport">Suport</a></li>
+							<li><a  data-scroll href="#contact">Contact</a></li>
 						</ul>
 						<form class="hidden-xs navbar-form navbar-right">
 							<div class="form-group">
@@ -40,7 +40,7 @@
 				</div>
 			</nav>
 		</header>
-		<section class="fondo" id="fruit-background">
+		<section class="fondo" id="producto fruit-background" >
 			<div class="container">
 				<div class="fruit-background">
 					<div class="row">
@@ -59,7 +59,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="container" id="recetas">
+		<section class="container" id="services" id="services recetas">
 			<div class="row">
 				<div class="col-xs-12 col-md-12  recetas text-center">
 					<h1>Recetas Destacadas</h1>
@@ -139,7 +139,8 @@
 				</div>
 			</div>	
 		</section><!-- /section 3banner-->
-		<section class="container">
+		<section class="container" id="suport">
+		
 			<ul id="waterfall">
 				<li>
 					<div>
@@ -203,14 +204,14 @@
 				</li>
 			</ul>
 		</section>
-		<footer class="color-footer">
+		<footer class="color-footer" id="contact">
 			<div class="container">
 				<div class="row margin">
 					<div class="col-xs-12 col-md-12 text-center">
 						<ul id="footer-text">
-							<li><a href="#" id="video">Address</a></li>
-							<li><a href="#" id="gallery">Mail</a></li>
-							<li><a href="#" id="contact">Phone</a></li>
+							<li><a href="#">Address</a></li>
+							<li><a href="#">Mail</a></li>
+							<li><a href="#">Phone</a></li>
 						</ul>
 					</div>
 					<div class="col-xs-12  col-md-12 icons text-center">
@@ -227,6 +228,10 @@
 		<script type="text/javascript" src="js/picturehover.min.js"></script>
 		<script type="text/javascript" src="js/newWaterfall.js"></script>
 		<script type="text/javascript" src="js/tiny-slideshow.js"></script>
+		<script type="text/javascript" src="js/smooth-scroll.min.js"></script>
+		<script>
+			smoothScroll.init();
+		</script>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
