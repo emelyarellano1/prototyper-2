@@ -4,16 +4,19 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>prototyper 2</title>
+		<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Courgette|Raleway" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
-		<header id="header"><!-- header -->
+		<header id="header">
 			<nav class="navbar navbar-default">
 				<div class="container">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 							<span class="sr-only">Toggle navigation</span>
-							<san class="icon-bar"></span>
+							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
@@ -21,10 +24,11 @@
 					</div>
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li><a href="#" id="about">Producto</a></li>
-							<li><a href="#" id="video">Services</a></li>
-							<li><a href="#" id="gallery">About</a></li>
-							<li><a href="#" id="contact">Suport</a></li>
+							<li><a href="#" id="producto">Producto</a></li>
+							<li><a href="#" id="services">Services</a></li>
+							<li><a href="#" id="product">Product</a></li>
+							<li><a href="#" id="suport">Suport</a></li>
+							<li><a href="#" id="contact">Contact</a></li>
 						</ul>
 						<form class="hidden-xs navbar-form navbar-right">
 							<div class="form-group">
@@ -32,29 +36,37 @@
 								<i class="fa fa-search" aria-hidden="true"></i>
 							</div>
 						</form>
-					</div><!-- /.navbar-collapse -->
-				</div><!-- /.container-fluid -->
-			</nav>
-		</header><!-- /header -->
-		<section class="container fondo" id="fruit-background">
-			<div class="row fruit-background">
-				<div class="col-xs-12 col-md-6">
-					<h1>Lorem ipsum</h1>
-					<span>Nulla iaculis et nunc tincidunt gravida.</span>
+					</div>
 				</div>
-				<div class="btn-group" role="group">
-  					<button type="button" class="btn btn-default">SING UP</button>
+			</nav>
+		</header>
+		<section class="fondo" id="fruit-background">
+			<div class="container">
+				<div class="fruit-background">
+					<div class="row">
+						<div class="col-xs-12 col-md-6">
+							<h1>Lorem ipsum</h1>
+							<span>Nam lorem diam, pretium ac venenatis eu, varius non tortor.</span>
+						</div>
+					</div>
+					<div class="row ">
+						<div class="col-xs-12 col-md-6">
+							<div class="btn-group" role="group">
+								<button type="button" class="btn btn-default">SING UP</button>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
 		<section class="container" id="recetas">
 			<div class="row">
-				<div class="col-xs-12 col-md-12">
+				<div class="col-xs-12 col-md-12  recetas text-center">
 					<h1>Recetas Destacadas</h1>
 				</div>
   				<div class="col-sm-6 col-md-3">
     				<div class="thumbnail">
-      					<img src="img/plato-frutas.png" alt="..." title="plato-frutas">
+      					<img src="img/plato-frutas.png" alt="..." title="Fruit salad">
       					<div class="caption">
         					<h3>Recipe one</h3>
         					<p>Lorem ipsum</p>
@@ -63,7 +75,7 @@
   				</div>
   				<div class="col-sm-6 col-md-3">
     				<div class="thumbnail">
-      					<img src="img/sandia.png" alt="..." title="sandia">
+      					<img src="img/sandia.png" alt="..." title="Sandia">
       					<div class="caption">
         					<h3>Recipe two</h3>
         					<p>Lorem ipsum</p>
@@ -73,7 +85,7 @@
   				</div>
   				<div class="col-sm-6 col-md-3">
     				<div class="thumbnail">
-      					<img src="img/cereales.png" alt="..." title="cereales">
+      					<img src="img/cereales.png" alt="..." title="Cereales">
       					<div class="caption">
         					<h3>Recipe three</h3>
         					<p>Lorem ipsum</p>
@@ -83,7 +95,7 @@
   				</div>
   				<div class="col-sm-6 col-md-3">
     				<div class="thumbnail">
-      					<img src="img/plato-frutas-2.png" alt="..." title="plato-frutas-2">
+      					<img src="img/plato-frutas-2.png" alt="..." title="Fruit salad">
       					<div class="caption">
 							<h3>Recipe four</h3>
 							<p>Lorem ipsum</p>
@@ -92,21 +104,41 @@
   				</div>
 			</div>
 		</section>
-		<section  class="container" id="slide-show">
-			<img src="img/left-arrow-1.png" id="prev">
-			<ul id="slider">
-				<li class="slide">
-					<img src="img/frutas-fondo.png" alt="">
-				</li>
-				<li class="slide">
-					<img src="img/cereales - Copy.png" alt="">
-				</li>
-				<li class="slide">
-					<img src="img/plato-frutas - Copy.png" alt="">
-				</li>
-			</ul>
-			<img src="img/right-arrow-1.png" id="next">
-		</section>
+		<section  id="product"><!--section 3 banner-->
+			<div class="container">
+				<div class="row">
+					<div class=".hidden-xs .hidden-sm col-md-12 col-xs-12 ">
+						<div id="slider-container">
+							
+							<ul id="slider">
+								<li class="slide">
+									<div class="slide-copy">
+										<h2>Slide One</h2>
+										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+									</div>
+									<img src="img/sandia-banner.png" alt="">
+								</li>
+								<li class="slide">
+									<div class="slide-copy">
+										<h2>Slide Two</h2>
+										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+									</div>
+									<img src="img/cereales-banner.png" alt="">
+								</li>
+								<li class="slide">
+									<div class="slide-copy">
+										<h2>Slide Three</h2>
+										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+									</div>
+									<img src="img/cereales-banner.png" alt="">
+								</li>
+							</ul>
+							    
+						</div>
+					</div>
+				</div>
+			</div>	
+		</section><!-- /section 3banner-->
 		<section class="container">
 			<ul id="waterfall">
 				<li>
@@ -171,26 +203,27 @@
 				</li>
 			</ul>
 		</section>
-		<footer>
-			<div class="row margen-footer">
-				<div class="col-xs-12 col-md-6">
-					<ul id="footer-text">
-						<li><a href="#" id="video">Address</a></li>
-						<li><a href="#" id="gallery">Mail</a></li>
-						<li><a href="#" id="contact">Phone</a></li>
-					</ul>
-				</div>
-				<div class="col-xs-0 col-md-3">
-				</div>
-				<div class="col-xs-12  col-md-3 icons navbar-right">
-					<i class="fa fa-facebook-official" aria-hidden="true"></i>
-					<i class="fa fa-twitter-square" aria-hidden="true"></i>
-					<i class="fa fa-instagram" aria-hidden="true"></i>
+		<footer class="color-footer">
+			<div class="container">
+				<div class="row margin">
+					<div class="col-xs-12 col-md-12 text-center">
+						<ul id="footer-text">
+							<li><a href="#" id="video">Address</a></li>
+							<li><a href="#" id="gallery">Mail</a></li>
+							<li><a href="#" id="contact">Phone</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-12  col-md-12 icons text-center">
+						<i class="fa fa-facebook-official" aria-hidden="true"></i>
+						<i class="fa fa-twitter-square" aria-hidden="true"></i>
+						<i class="fa fa-instagram" aria-hidden="true"></i>
+					</div>
 				</div>
 			</div>
 		</footer>
 
 		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="sass/bootstrap-sass-3.3.7/assets/javascripts/bootstrap.js"></script>
 		<script type="text/javascript" src="js/picturehover.min.js"></script>
 		<script type="text/javascript" src="js/newWaterfall.js"></script>
 		<script type="text/javascript" src="js/tiny-slideshow.js"></script>

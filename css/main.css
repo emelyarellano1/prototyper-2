@@ -5839,9 +5839,20 @@ button.close {
   box-shadow: 0 10px 15px rgba(38, 191, 64, 0.1);
   transition: all 0.3s; }
 
+/*MENU*/
 .navbar {
   margin-bottom: 0px;
   border-radius: 0px; }
+
+#bs-example-navbar-collapse-1 a {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 40px;
+  margin-right: 40px; }
+
+.navbar-default .navbar-brand {
+  color: #777;
+  font-family: 'Courgette', cursive;
+  font-size: 25px; }
 
 .fondo {
   background-image: url(../img/frutas-fondo.png);
@@ -5850,6 +5861,30 @@ button.close {
 .fruit-background {
   margin-top: 250px;
   margin-bottom: 300px; }
+  .fruit-background h1 {
+    font-size: 40px;
+    color: #ffffff; }
+  .fruit-background span {
+    font-size: 14px;
+    color: #ffffff; }
+
+.btn-default {
+  margin-top: 10px; }
+
+/*Recetas*/
+.recetas {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #777;
+  font-family: 'Courgette', cursive; }
+
+.caption, .slide-copy {
+  font-family: 'Raleway', sans-serif; }
+
+/*seccion Banner*/
+#slider {
+  padding-left: 0px;
+  margin-bottom: 0px; }
 
 #slide-show {
   height: 600px;
@@ -5895,5 +5930,37 @@ button.close {
   left: 0;
   padding: 20px;
   position: absolute; }
+
+/*footer*/
+#footer-text li {
+  display: inline-block; }
+  #footer-text li a {
+    color: #777;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 20px 0px 10px; }
+
+.color-footer {
+  background-color: #d8d8d8; }
+
+.margin {
+  margin-top: 30px;
+  margin-bottom: 15px; }
+
+.icons {
+  font-size: 25px;
+  padding-left: 60px; }
+
+.fa-facebook-official {
+  color: #3b5998; }
+
+.fa-twitter-square {
+  color: #00aced; }
+
+.fa-instagram {
+  color: #1dcaff; }
+
+.fondo-footer {
+  background-color: #0b0c13; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,8 +1,16 @@
+/*MENU*/
 .navbar{
 	margin-bottom: 0px;
 	border-radius:0px;
 }
-
+#bs-example-navbar-collapse-1{
+	a {
+		@include menu;
+	}
+}
+.navbar-default .navbar-brand {
+		@include tasty;
+}
 .fondo{
 	background-image: url(../img/frutas-fondo.png);
 	width: 100%;
@@ -10,7 +18,35 @@
 .fruit-background{
 	margin-top: 250px;
 	margin-bottom: 300px;
+	h1{
+		font-size: $font-size-h1;
+		color:	$color-loremipsum;
+	}
+	span{
+		font-size: 14px;
+		color:	$color-loremipsum;
+	}
 }
+.btn-default{
+	margin-top: 10px;
+}
+/*Recetas*/
+.recetas{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	color: $colo-text-footer;
+    font-family: 'Courgette', cursive;
+}
+.caption, .slide-copy{
+	font-family:	'Raleway', sans-serif;
+}
+/*seccion Banner*/
+#slider{
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+
 #slide-show {
 	height: 600px;
 	overflow: hidden;
@@ -61,4 +97,38 @@
   left: 0;
   padding: 20px;
   position: absolute;
+}
+
+/*footer*/
+#footer-text {
+	li{
+		display: inline-block;
+		a{
+			@include foottercolortext;
+		}
+	}
+}
+.color-footer{
+	background-color: $footer-color;
+}
+.margin{
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.icons {
+	font-size: 25px;
+	padding-left: 60px;
+	
+}
+.fa-facebook-official{
+	color: $color-facebook;
+}
+.fa-twitter-square{
+	color: $color-twitter;
+}
+.fa-instagram{
+	color:	$color-instagram;
+}
+.fondo-footer {
+	background-color: $color-fondo;
 }
