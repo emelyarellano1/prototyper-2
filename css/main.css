@@ -5847,15 +5847,27 @@ button.close {
 #bs-example-navbar-collapse-1 a {
   font-family: 'Raleway', sans-serif;
   margin-left: 40px;
-  margin-right: 40px; }
+  margin-right: 40px;
+  color: #000; }
 
 .navbar-default .navbar-brand {
-  color: #777;
+  color: #01b6fe;
   font-family: 'Courgette', cursive;
   font-size: 25px; }
 
+.navbar-default .navbar-brand:hover {
+  font-family: 'Courgette', cursive;
+  font-size: 25px;
+  color: #367c98; }
+
+.navbar-default .navbar-nav > li > a {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: #000; }
+
 .fondo {
-  background-image: url(../img/frutas-fondo.png);
+  background-image: url(../img/fondo-tarta.png);
   width: 100%; }
 
 .fruit-background {
@@ -5875,7 +5887,7 @@ button.close {
 .recetas {
   margin-top: 50px;
   margin-bottom: 30px;
-  color: #777;
+  color: #01b6fe;
   font-family: 'Courgette', cursive; }
 
 .caption, .slide-copy {
@@ -5935,13 +5947,13 @@ button.close {
 #footer-text li {
   display: inline-block; }
   #footer-text li a {
-    color: #777;
+    color: #01b6fe;
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
     margin: 0px 20px 0px 10px; }
 
 .color-footer {
-  background-color: #d8d8d8; }
+  background-color: #e1e9f7; }
 
 .margin {
   margin-top: 30px;

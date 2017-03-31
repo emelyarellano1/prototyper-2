@@ -2,15 +2,21 @@
 	font-family:	'Raleway', sans-serif;
 	margin-left: 40px;
     margin-right: 40px;
+    color: $color-menu;
 }
+
 
 @mixin tasty {
-    color: $colo-text-footer;
-    font-family: 'Courgette', cursive;
-    font-size: 25px;
+	color: $colo-text-footer;
+	font-family: 'Courgette', cursive;
+	font-size: 25px;
 
 }
-
+@mixin tasty-hover{
+	font-family: 'Courgette', cursive;
+	font-size: 25px;
+	color: $color-hover-tasty;	
+}
 @mixin foottercolortext {
 	color: $colo-text-footer;
 	font-size: 18px;

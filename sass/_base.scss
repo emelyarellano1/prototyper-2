@@ -11,8 +11,15 @@
 .navbar-default .navbar-brand {
 		@include tasty;
 }
+.navbar-default .navbar-brand:hover {
+		@include tasty-hover;
+}
+.navbar-default .navbar-nav > li > a {
+	@include menu;
+}
+
 .fondo{
-	background-image: url(../img/frutas-fondo.png);
+	background-image: url(../img/fondo-tarta.png);
 	width: 100%;
 }
 .fruit-background{
